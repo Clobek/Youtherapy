@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import '../assets/style.scss'
 
-export default function Home() {
+export default function About() {
   return (
     <div className="container">
       <Head>
@@ -12,5 +12,3 @@ export default function Home() {
     </div>
   )
 }
-
-      {/* <img src="/images/Logo.png" alt="logo" width="200px" height="200px"/> */}
