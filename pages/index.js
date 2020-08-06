@@ -39,6 +39,25 @@ export default function Home() {
       </header>
       <main>
         <div className="section">Summary</div>
+        <div className="fibroblast">
+          <div className="fibroblast__title">
+            <p>Fibroblast Plasma</p>
+          </div>
+          <div className="fibroblast__description">
+            <p>Fibroblast is the only cosmetic treatment to use plasma to reduce the volume of excess skin. As a less expensive, low risk procedure with minimal downtime, Fibroblast is a great alternative to surgery.</p>
+            <p> Results are expected to last 3-5 years; however, depending on the aging of skin, decrease in elasticity and how deep wrinkle lines/scars are, follow up treatments can be performed in just 8-12 weeks.</p>
+          </div>
+        </div>
+        <div className="hyaluron">
+          
+          <div className="hyaluron__description">
+            <p>Fibroblast is the only cosmetic treatment to use plasma to reduce the volume of excess skin. As a less expensive, low risk procedure with minimal downtime, Fibroblast is a great alternative to surgery.</p>
+            <p> Results are expected to last 3-5 years; however, depending on the aging of skin, decrease in elasticity and how deep wrinkle lines/scars are, follow up treatments can be performed in just 8-12 weeks.</p>
+          </div>
+          <div className="hyaluron__title">
+            <p>Hyaluron Lip Treatment</p>
+          </div>
+        </div>
         <div className="section">Examples</div>
         <div className="examples">
           <div className="examples__fibroblast">
