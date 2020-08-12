@@ -3,11 +3,12 @@
     100% {transform: translateY(0%); opacity: 100%}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 599px){
     *{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        text-decoration: none;
     }
     body{
         background-color: ghostwhite;
@@ -139,6 +140,128 @@
                         margin: 0 10% 0 2.5%;
                     }
                 }
+                .fibroblast{
+                    display: flex;
+                    flex-flow: column;
+                    border: solid black 1px;
+                    height: 200px;
+                    width: 94%;
+                    margin: 5px auto;
+                    background-image: linear-gradient(to right bottom, #C79681, #ECC7B7, #C79681);
+                    font-family: 'Montserrat', sans-serif;
+                    &__title{
+                        display: flex;
+                        flex-flow: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 25%;
+                        width: 60%;
+                        margin: auto;
+                        background-color: ghostwhite;
+                        border-right: solid black 1px;
+                        border-left: solid black 1px;
+                        border-bottom: solid black 1px;
+                        p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
+                            display: flex;
+                            font-size: clamp(16px, 2.5vw, 18px);
+                            align-items: center;
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
+                        }
+                    }
+                    &__description{
+                        display: flex;
+                        flex-flow: column;
+                        height: 80%;
+                        width: 100%;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            padding: 0 10%;
+                            width: 100%;
+                            height: 50%;
+                            font-size: clamp(10px, 2.5vw, 16px);
+                        }
+                    }
+                }
+                .hyaluron{
+                    display: flex;
+                    flex-flow: column-reverse;
+                    border: solid black 1px;
+                    height: 200px;
+                    width: 94%;
+                    margin: 5px auto;
+                    background-image: linear-gradient(to left bottom, #C79681, #ECC7B7, #C79681);
+                    font-family: 'Montserrat', sans-serif;
+                    &__title{
+                        display: flex;
+                        flex-flow: column;
+                        align-items: center;
+                        justify-content: center;
+                        height: 25%;
+                        width: 60%;
+                        margin: auto;
+                        background-color: ghostwhite;
+                        border-right: solid black 1px;
+                        border-left: solid black 1px;
+                        border-bottom: solid black 1px;
+                        p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
+                            display: flex;
+                            font-size: clamp(16px, 2.5vw, 18px);
+                            align-items: center;
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
+                        }
+                    }
+                    &__description{
+                        display: flex;
+                        flex-flow: column;
+                        height: 80%;
+                        width: 100%;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            padding: 0 10%;
+                            width: 100%;
+                            height: 50%;
+                            font-size: clamp(10px, 2.5vw, 16px);
+                        }
+                    }
+                }
                 .examples{
                     margin: 5px 0;
                     display: flex;
@@ -157,9 +280,7 @@
                             display: flex;
                         }
                         &:hover .examples__fibroblast--title{
-                            background-color: black;
                             color: #C79681;
-                            border-top: solid #C79681 1px;
                         }
                         &--image{
                             height: 85%;
@@ -204,9 +325,7 @@
                             display: flex;
                         }
                         &:hover .examples__hyaluron--title{
-                            background-color: black;
                             color: #C79681;
-                            border-top: solid #C79681 1px;
                         }
                         &--image{
                             height: 85%;
@@ -239,6 +358,74 @@
                     }
                 }
             }
+
+            footer{
+                display: flex;
+                flex-flow: column;
+                height: 160px;
+                border-radius: 4%;
+                border-top: solid #C79681 2px;
+                .footer{
+                    display: flex;
+                    flex-flow: row;
+                    height: 80%;
+                    &__location{
+                        display: flex;
+                        flex-flow: column;
+                        width: 50%;
+                        height: 60%;
+                        margin: auto 0 auto 5%;
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            height: 50%;
+                            width: 100%;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: clamp(12px, 2vw, 14px);
+                        }
+                    }
+                    &__links{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50%;
+                        margin-right: 5%;
+                        border-left: solid rgba(0, 0, 0, 0.2) 1px;
+                        .fab{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 24px;
+                            margin: 0 10px;
+                            color: black;
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(1.05);
+                                color: #C79681;
+                            }
+                        }
+                    }
+                    &__section{
+                    display: flex;
+                    width: 60%;
+                    justify-content: center;
+                    align-items: center;
+                    border-top: 1px solid rgba(0, 0, 0, 0.2);
+                    margin: auto;
+                    }
+                    &__signature{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 20%;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: clamp(12px, 2vw, 14px);
+                    }
+                }
+                
+            }
         }
     }    
 }   
@@ -248,6 +435,7 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        text-decoration: none;
     }
     body{
         background-color: ghostwhite;
@@ -379,6 +567,124 @@
                         margin: 0 20% 0 2.5%;
                     }
                 }
+                .fibroblast{
+                    display: flex;
+                    border: solid black 1px;
+                    height: 200px;
+                    width: 94%;
+                    margin: 5px auto;
+                    background-image: linear-gradient(to left bottom, #C79681, #ECC7B7, #C79681);
+                    font-family: 'Montserrat', sans-serif;
+                    &__title{
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
+                        height: 50%;
+                        width: 30%;
+                        margin-left: 5%;
+                        background-color: ghostwhite;
+                        border-right: solid black 1px;
+                        border-left: solid black 1px;
+                        border-bottom: solid black 1px;
+                        p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
+                            display: flex;
+                            font-size: clamp(16px, 2.5vw, 18px);
+                            align-items: center;
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
+                        }
+                    }
+                    &__description{
+                        display: flex;
+                        flex-flow: column;
+                        height: 100%;
+                        width: 65%;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            padding: 0 10%;
+                            width: 100%;
+                            height: 50%;
+                            font-size: clamp(12px, 2vw, 16px);
+                        }
+                    }
+                }
+                .hyaluron{
+                    display: flex;
+                    border: solid black 1px;
+                    height: 200px;
+                    width: 94%;
+                    margin: 5px auto;
+                    background-image: linear-gradient(to left bottom, #C79681, #ECC7B7, #C79681);
+                    font-family: 'Montserrat', sans-serif;
+                    &__title{
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
+                        height: 50%;
+                        width: 30%;
+                        margin-right: 5%;
+                        background-color: ghostwhite;
+                        border-right: solid black 1px;
+                        border-left: solid black 1px;
+                        border-bottom: solid black 1px;
+                        p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
+                            display: flex;
+                            font-size: clamp(16px, 2.5vw, 18px);
+                            align-items: center;
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
+                        }
+                    }
+                    &__description{
+                        display: flex;
+                        flex-flow: column;
+                        height: 100%;
+                        width: 65%;
+                        p{
+                            display: flex;
+                            align-items: center;
+                            padding: 0 10%;
+                            width: 100%;
+                            height: 50%;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                        }
+                    }
+                }
                 .examples{
                     margin: 10px 0;
                     display: flex;
@@ -397,9 +703,7 @@
                             display: flex;
                         }
                         &:hover .examples__fibroblast--title{
-                            background-color: black;
                             color: #C79681;
-                            border-top: solid #C79681 1px;
                         }
                         &--image{
                             height: 85%;
@@ -421,12 +725,12 @@
                             border: solid black 1px;
                             div{
                                 display: none;
-                                font-size: clamp(16px, 1vw, 20px);
+                                font-size: clamp(14px, 2.5vw, 16px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(24px, 1vw, 26px);
+                                font-size: clamp(18px, 2.5vw, 24px);
                                 animation: none;
                             }
                         }
@@ -443,9 +747,7 @@
                             display: flex;
                         }
                         &:hover .examples__hyaluron--title{
-                            background-color: black;
                             color: #C79681;
-                            border-top: solid #C79681 1px;
                         }
                         &--image{
                             height: 85%;
@@ -467,17 +769,83 @@
                             border: solid black 1px;
                             div{
                                 display: none;
-                                font-size: clamp(16px, 1vw, 20px);
+                                font-size: clamp(14px, 2.5vw, 16px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(24px, 1vw, 26px);
+                                font-size: clamp(18px, 2.5vw, 24px);
                                 animation: none;
                             }
                         }
                     }
                 }
+            }
+
+            footer{
+                display: flex;
+                flex-flow: column;
+                height: 160px;
+                border-radius: 4%;
+                border-top: solid #C79681 2px;
+                .footer{
+                    display: flex;
+                    flex-flow: row;
+                    height: 80%;
+                    &__location{
+                        display: flex;
+                        flex-flow: column;
+                        width: 50%;
+                        height: 60%;
+                        margin: auto 0 auto 5%;
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 50%;
+                            width: 100%;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: clamp(16px, 2vw, 18px);
+                        }
+                    }
+                    &__links{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50%;
+                        margin-right: 5%;
+                        border-left: solid rgba(0, 0, 0, 0.2) 1px;
+                        .fab{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 30px;
+                            margin: 0 10px;
+                            color: black;
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(1.05);
+                                color: #C79681;
+                            }
+                        }
+                    }
+                    &__section{
+                    display: flex;
+                    width: 60%;
+                    justify-content: center;
+                    align-items: center;
+                    border-top: 1px solid rgba(0, 0, 0, 0.2);
+                    margin: auto;
+                    }
+                    &__signature{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 20%;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                
             }
         }
     }
@@ -488,6 +856,7 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        text-decoration: none;
     }
     body{
         background-color: ghostwhite;
@@ -497,6 +866,7 @@
             width: 70%;
             height: 100%;
             margin: 0 auto;
+            
             header{
                 display: flex;
                 flex-flow: row;
@@ -528,7 +898,7 @@
                         width: 100%;
                         height: 20%;
                         list-style-type: none;
-                        font-size: clamp(14px, 1vw, 22px);
+                        font-size: clamp(18px, 1.5vw, 24px);
                         li{
                             display: flex;
                             justify-content: center;
@@ -559,20 +929,24 @@
                                     position: absolute;
                                     top: 100%;
                                     background-color: ghostwhite;
-                                    width: 140px;
+                                    width: 25%;
                                     box-shadow: 0px 4px 4px 1px rgba(0,0,0,0.2);
                                     z-index: 1;
                                     a:first-child{
                                         border-top: solid black 1px;
                                     }
                                     a{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 100%;
+                                        height: 100%;
+                                        padding: 10% 0;
                                         color: black;
-                                        padding: 12px 16px;
                                         border-right: solid black 1px;
                                         border-left: solid black 1px;
                                         border-bottom: solid black 1px;
                                         text-decoration: none;
-                                        display: block;
                                         text-align: center;   
                                     }
                                 }
@@ -626,31 +1000,44 @@
                     display: flex;
                     border: solid black 1px;
                     height: 300px;
-                    width: 94%;
+                    width: 93%;
                     margin: 5px auto;
-                    background-image: linear-gradient(to right bottom, #C79681, #ECC7B7, #C79681);
+                    background-image: radial-gradient( #C79681, #ECC7B7);
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
                         height: 50%;
                         width: 30%;
                         margin-left: 5%;
-                        background-color: black;
+                        background-color: ghostwhite;
+                        border-right: solid black 1px;
+                        border-left: solid black 1px;
+                        border-bottom: solid black 1px;
                         p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(18px, 1.5vw, 24px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
                             display: flex;
-                            justify-content: center;
+                            font-size: clamp(20px, 2vw, 30px);
                             align-items: center;
-                            width: 100%;
-                            height: 100%;
-                            color: ghostwhite;
-                            font-size: clamp(20px, 2vw, 32px);
                         }
                         &:hover{
                             cursor: pointer;
-                        }
-                        &:hover .fibroblast__title > p{
-                            color: #C79681;
-                            background-color: black;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
                         }
                     }
                     &__description{
@@ -672,12 +1059,15 @@
                     display: flex;
                     border: solid black 1px;
                     height: 300px;
-                    width: 94%;
+                    width: 93%;
                     margin: 5px auto;
-                    background-image: linear-gradient(to left bottom, #C79681, #ECC7B7, #C79681);
+                    background-image: radial-gradient( #C79681, #ECC7B7);
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
+                        flex-flow: column;
+                        justify-content: center;
+                        align-items: center;
                         height: 50%;
                         width: 30%;
                         margin-right: 5%;
@@ -686,13 +1076,27 @@
                         border-left: solid black 1px;
                         border-bottom: solid black 1px;
                         p{
+                            display: none;
+                            text-align: center;
+                            font-size: clamp(18px, 1.5vw, 24px);
+                            padding: 1% 5%;
+                        }
+                        p:first-child{
                             display: flex;
-                            justify-content: center;
+                            font-size: clamp(20px, 2vw, 30px);
                             align-items: center;
-                            width: 100%;
-                            height: 100%;
-                            color: black;
-                            font-size: clamp(20px, 2vw, 28px);
+                        }
+                        &:hover{
+                            cursor: pointer;
+                            p{
+                                display: flex;
+                                color: #C79681;
+                                animation: slide 0.5s;
+                            }
+                            p:first-child{
+                                align-items: flex-end;
+                                animation: none;
+                            }
                         }
                     }
                     &__description{
@@ -703,7 +1107,6 @@
                         p{
                             display: flex;
                             align-items: center;
-                            text-align: right;
                             padding: 0 10%;
                             width: 100%;
                             height: 50%;
@@ -729,7 +1132,6 @@
                             display: flex;
                         }
                         &:hover .examples__fibroblast--title{
-                            background-color: black;
                             color: #C79681;
                             border-top: solid #C79681 1px;
                         }
@@ -775,9 +1177,7 @@
                             display: flex;
                         }
                         &:hover .examples__hyaluron--title{
-                            background-color: black;
                             color: #C79681;
-                            border-top: solid #C79681 1px;
                         }
                         &--image{
                             height: 85%;
@@ -811,8 +1211,72 @@
                     }
                 }
             }
-
             
+            footer{
+                display: flex;
+                flex-flow: column;
+                height: 160px;
+                border-radius: 4%;
+                border-top: solid #C79681 2px;
+                .footer{
+                    display: flex;
+                    flex-flow: row;
+                    height: 80%;
+                    &__location{
+                        display: flex;
+                        flex-flow: column;
+                        width: 50%;
+                        height: 60%;
+                        margin: auto 0 auto 5%;
+                        p{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 50%;
+                            width: 100%;
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: clamp(16px, 2vw, 18px);
+                        }
+                    }
+                    &__links{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 50%;
+                        margin-right: 5%;
+                        border-left: solid rgba(0, 0, 0, 0.2) 1px;
+                        .fab{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 30px;
+                            margin: 0 10px;
+                            color: black;
+                            &:hover{
+                                cursor: pointer;
+                                transform: scale(1.05);
+                                color: #C79681;
+                            }
+                        }
+                    }
+                    &__section{
+                    display: flex;
+                    width: 60%;
+                    justify-content: center;
+                    align-items: center;
+                    border-top: 1px solid rgba(0, 0, 0, 0.2);
+                    margin: auto;
+                    }
+                    &__signature{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 20%;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                
+            }
         }
     }  
 }

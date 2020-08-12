@@ -32,10 +32,26 @@ export default function About() {
               </div>
             </li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
-            <li><Link href="/contact"><a>Contact</a></Link></li>
           </ul>
         </div>
       </header>
+      <main style={{display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '60px', width: '100%', height: '600px', textAlign: 'center'}}>
+        Under Construction
+      </main>
+      <footer>
+        <div className="footer">
+          <div className="footer__location">
+            <p>1147 16th Ave., Moline, IL 61265</p>
+            <p>(818)825-6441</p>
+          </div>
+          <div className="footer__links">
+            <a href="https://www.instagram.com/youtherapy_modern_skincare/" target="_blank" rel="noopener noreferrer"><i aria-hidden className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/youtherapymodernskincare" target="_blank" rel="noopener noreferrer"><i aria-hidden className="fab fa-facebook-square"></i></a>
+          </div>
+        </div>
+        <div className="footer__section"></div>
+        <div className="footer__signature">Website design & code by Bryce Belock</div>
+      </footer>
     </div>
   )
 }
