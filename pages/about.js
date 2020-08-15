@@ -9,10 +9,10 @@ export default function About() {
         <title>Youtherapy</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
-        <script src="https://kit.fontawesome.com/8187678fb5.js" crossorigin="anonymous" defer></script>
+        <script src="https://kit.fontawesome.com/8187678fb5.js" crossOrigin="anonymous" defer></script>
       </Head>
       <header>
-        <Link href="/"><div className="logo"></div></Link>
+      <Link href="/"><div className="logo"></div></Link>
         <div className="nav">
           <ul>
             <li><Link href="/"><a>Home</a></Link></li>
@@ -35,13 +35,14 @@ export default function About() {
           </ul>
         </div>
       </header>
-      <main style={{display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '60px', width: '100%', height: '600px', textAlign: 'center'}}>
-        Under Construction
+      <main>
+        
       </main>
       <footer>
         <div className="footer">
           <div className="footer__location">
             <p>1147 16th Ave., Moline, IL 61265</p>
+            <p>kj@youtherapyskin.com</p>
             <p>(818)825-6441</p>
           </div>
           <div className="footer__links">
