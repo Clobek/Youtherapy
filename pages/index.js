@@ -52,13 +52,7 @@ export default function Home() {
                 <Link href="/services/hyaluron"><a>Hyaluron</a></Link>
               </div>
             </li>
-            <li className="dropdown">
-              <div className="dropbtn">Pricing&nbsp;<i aria-hidden className="fas fa-caret-down"></i><i aria-hidden className="fas fa-caret-up"></i></div>
-              <div className="dropdown-content">
-                <Link href="/pricing/fibroblast"><a>Fibroblast</a></Link>
-                <Link href="/pricing/hyaluron"><a>Hyaluron</a></Link>
-              </div>
-            </li>
+            <li><Link href="/prices"><a>Price List</a></Link></li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
         </div>

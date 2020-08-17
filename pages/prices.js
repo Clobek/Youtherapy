@@ -1,8 +1,36 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import '../../assets/style.scss'
+import img from '../public/images/peachmarble.jpg'
+import '../assets/style.scss'
+const {useState, useEffect} = React
 
-export default function Hyaluron() {
+export default function Home() {
+
+  const [state, setState] = useState({
+    status: ''
+  });
+
+  const submitForm = (ev) =>{
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        setState({ status: "SUCCESS" });
+      } else {
+        setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
+  };
+
+  const {status} = state;
+
   return (
     <div className="container">
       <Head>
@@ -24,17 +52,14 @@ export default function Hyaluron() {
                 <Link href="/services/hyaluron"><a>Hyaluron</a></Link>
               </div>
             </li>
-            <li className="dropdown">
-              <div className="dropbtn">Pricing&nbsp;<i aria-hidden className="fas fa-caret-down"></i><i aria-hidden className="fas fa-caret-up"></i></div>
-              <div className="dropdown-content">
-                <Link href="/pricing/fibroblast"><a>Fibroblast</a></Link>
-                <Link href="/pricing/hyaluron"><a>Hyaluron</a></Link>
-              </div>
-            </li>
+            <li><Link href="/prices"><a>Price List</a></Link></li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
         </div>
       </header>
+      <main>
+        <div className="prices"></div>
+      </main>
       <footer>
         <div className="footer">
           <div className="footer__location">

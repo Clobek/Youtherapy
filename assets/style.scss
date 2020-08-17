@@ -28,6 +28,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
+                z-index: 2;
                 .logo{
                     height: 100%;
                     width: 75%;
@@ -152,14 +153,75 @@
                         margin: 0 10% 0 2.5%;
                     }
                 }
+
+                .about{
+                    position: relative;
+                    height: 900px;
+                    width: 100%;
+                    margin: 14.7px 0;
+                    .left{
+                        position: absolute;
+                        width: 30%;
+                        height: 25vw;
+                        top: 0;
+                        left: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot2.jpg');
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                    .center{
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-evenly;
+                        position: absolute;
+                        padding: 10% 3%;
+                        width: 75%;
+                        height: 88%;
+                        top: 6%;
+                        left: 12.5%;
+                        background-color: #ECC7B7;
+                        box-shadow: inset 0 0 30px #C79681;
+                        border: solid rgba(0, 0, 0, 0.3) 1px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: clamp(10.5px, 3vw, 12.5px);
+                        text-align: center;
+                    }
+                    .right{
+                        position: absolute;
+                        width: 30%;
+                        height: 25vw;
+                        bottom: 0;
+                        right: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot1.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                }
+
+                .prices{
+                    height: 530px;
+                    margin: 10px 0;
+                    background-image: url('../public/images/prices.jpg');
+                    background-size: 100% 100%;
+                    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+                }
+
                 .fibroblast{
                     display: flex;
                     flex-flow: column;
                     border: solid black 1px;
-                    height: 200px;
+                    height: 250px;
                     width: 100%;
                     margin: 0 auto 10px auto;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -170,9 +232,7 @@
                         width: 60%;
                         margin: auto;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -200,15 +260,13 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
+                        text-align: center;
                         height: 80%;
                         width: 100%;
                         p{
-                            display: flex;
-                            align-items: center;
-                            text-align: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(11px, 2.5vw, 16px);
                         }
                     }
@@ -217,9 +275,10 @@
                     display: flex;
                     flex-flow: column-reverse;
                     border: solid black 1px;
-                    height: 200px;
+                    height: 250px;
                     width: 100%;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -230,9 +289,7 @@
                         width: 60%;
                         margin: auto;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -260,15 +317,13 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
+                        text-align: center;
                         height: 80%;
                         width: 100%;
                         p{
-                            display: flex;
-                            align-items: center;
-                            text-align: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(11px, 2.5vw, 16px);
                         }
                     }
@@ -577,6 +632,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
+                z-index: 2;
                 .logo{
                     height: 100%;
                     width: 50%;
@@ -601,7 +657,7 @@
                         width: 100%;
                         height: 20%;
                         list-style-type: none;
-                        font-size: clamp(14px, 1vw, 18px);
+                        font-size: clamp(16px, 2vw, 18px);
                         li{
                             display: flex;
                             justify-content: center;
@@ -701,13 +757,73 @@
                         margin: 0 20% 0 2.5%;
                     }
                 }
+
+                .about{
+                    position: relative;
+                    height: 800px;
+                    width: 100%;
+                    margin: 14.7px 0;
+                    .left{
+                        position: absolute;
+                        width: 25%;
+                        height: 20vw;
+                        top: 0;
+                        left: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot2.jpg');
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                    .center{
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-evenly;
+                        position: absolute;
+                        padding: 0 13%;
+                        width: 75%;
+                        height: 84%;
+                        top: 8%;
+                        left: 12.5%;
+                        background-color: #ECC7B7;
+                        box-shadow: inset 0 0 30px #C79681;
+                        border: solid rgba(0, 0, 0, 0.3) 1px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: clamp(11px, 1.6vw, 14px)
+                    }
+                    .right{
+                        position: absolute;
+                        width: 25%;
+                        height: 20vw;
+                        bottom: 0;
+                        right: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot1.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                }
+
+                .prices{
+                    height: 1106px;
+                    margin: 20px 0;
+                    background-image: url('../public/images/prices.jpg');
+                    background-size: 100% 100%;
+                    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                }
+
                 .fibroblast{
                     display: flex;
                     border: solid black 1px;
                     height: 200px;
                     width: 100%;
                     margin: 0 auto 20px auto;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -718,9 +834,7 @@
                         width: 30%;
                         margin-left: 5%;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -748,14 +862,12 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
                         height: 100%;
                         width: 65%;
                         p{
-                            display: flex;
-                            align-items: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(13px, 2vw, 15px);
                         }
                     }
@@ -766,7 +878,8 @@
                     height: 200px;
                     width: 100%;
                     margin: 0 auto;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -777,9 +890,7 @@
                         width: 30%;
                         margin-right: 5%;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -807,14 +918,12 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
                         height: 100%;
                         width: 65%;
                         p{
-                            display: flex;
-                            align-items: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(13px, 2vw, 15px);
                         }
                     }
@@ -1119,6 +1228,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
+                z-index: 2;
                 .logo{
                     height: 100%;
                     width: 30%;
@@ -1244,13 +1354,73 @@
                         margin: 0 20% 0 2.5%;
                     }
                 }
+
+                .about{
+                    position: relative;
+                    height: 900px;
+                    width: 100%;
+                    margin: 14.7px 0;
+                    .left{
+                        position: absolute;
+                        width: 25%;
+                        height: 15vw;
+                        top: 0;
+                        left: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot2.jpg');
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                    .center{
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-evenly;
+                        position: absolute;
+                        padding: 0 13%;
+                        width: 75%;
+                        height: 80%;
+                        top: 10%;
+                        left: 12.5%;
+                        background-color: #ECC7B7;
+                        box-shadow: inset 0 0 30px #C79681;
+                        border: solid rgba(0, 0, 0, 0.3) 1px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: clamp(13px, .9vw, 18px)
+                    }
+                    .right{
+                        position: absolute;
+                        width: 25%;
+                        height: 15vw;
+                        bottom: 0;
+                        right: 0;
+                        border-radius: 50%;
+                        z-index: 1;
+                        background-image: url('../public/images/headshot1.jpg');
+                        background-position: center;
+                        background-size: cover;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        border: solid black 1px;
+                    }
+                }
+
+                .prices{
+                    height: 1687px;
+                    margin: 30px 0;
+                    background-image: url('../public/images/prices.jpg');
+                    background-size: 100% 100%;
+                    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                }
+
                 .fibroblast{
                     display: flex;
                     border: solid black 1px;
                     height: 300px;
                     width: 100%;
                     margin: 0 auto 30px auto;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 30px #C79681;
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -1261,9 +1431,7 @@
                         width: 30%;
                         margin-left: 5%;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -1293,14 +1461,12 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
                         height: 100%;
                         width: 65%;
                         p{
-                            display: flex;
-                            align-items: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(17px, 1.4vw, 22px);
                         }
                     }
@@ -1311,7 +1477,8 @@
                     height: 300px;
                     width: 100%;
                     margin: 0 auto;
-                    background-image: radial-gradient( #C79681, #ECC7B7);
+                    background-color: #ECC7B7;
+                    box-shadow: inset 0 0 30px #C79681; 
                     font-family: 'Montserrat', sans-serif;
                     &__title{
                         display: flex;
@@ -1322,9 +1489,7 @@
                         width: 30%;
                         margin-right: 5%;
                         background-color: #FFFFFF;
-                        border-right: solid black 1px;
-                        border-left: solid black 1px;
-                        border-bottom: solid black 1px;
+                        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
                         p{
                             display: none;
                             text-align: center;
@@ -1352,14 +1517,12 @@
                     &__description{
                         display: flex;
                         flex-flow: column;
+                        justify-content: space-evenly;
                         height: 100%;
                         width: 65%;
                         p{
-                            display: flex;
-                            align-items: center;
                             padding: 0 5%;
                             width: 100%;
-                            height: 50%;
                             font-size: clamp(17px, 1.4vw, 22px);
                         }
                     }
