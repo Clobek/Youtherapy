@@ -8,12 +8,12 @@ export default function About() {
       <Head>
         <title>Youtherapy</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/8187678fb5.js" crossOrigin="anonymous" defer></script>
       </Head>
       <header>
       <Link href="/"><div className="logo"></div></Link>
-        <div className="nav">
+        <nav>
           <ul>
             <li><Link href="/"><a>Home</a></Link></li>
             <li><Link href="/about"><a>About</a></Link></li>
@@ -27,17 +27,18 @@ export default function About() {
             <li><Link href="/prices"><a>Price List</a></Link></li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
-        </div>
+        </nav>
       </header>
       <main>
         <div className="about">
+          <div className="top-right">Katie Jo</div>
           <div className="left"></div>
           <div className="center"><p>At an early age I always knew I would either own or operate a business. From childhood to adulthood I would help around my mother's businesses; it wasn't until I was older and managing my mother's beauty salon that my passion for the beauty industry began. 
           After extensive research I decided to attend Aveda Institute of Chicago where I fell in love with natural health and beauty. Training in both Cosmetology and Esthiology I worked with clients at Aveda salons as well as on the sets for music videos, fashion shows and even television shows. I loved all the services I provided but especially enjoyed my skincare appointments. It's because of this that I decided to further my education in skincare.</p> 
           
           <p>While pregnant and researching natural anti-aging treatments, I learned about these life changing treatments. After having my son, I went back to school to get certified for both the Fibroblast Plasma Pen as well as the Hyaluron Pen. Now, full circle I have opened my own business. Youtherapy Modern Skincare a you-nique beauty boutique specializing in natural-looking, non-surgical facial rejuvenation and skincare for both men and women. I am the first and only Fibroblast and Hyaluron technician in the Quad Cities. I remain dedicated to staying educated on the latest advancements/technology in natural skincare. My goal is to create a comfortable and private atmosphere focusing on making people feel beautiful, confident and more comfortable in their own skin.</p> 
 
-          <p>*Due to high service requests I also travel between Chicago, Madison WI, Denver CO and LA. If you are interested in me coming to your area for a treatment please request a consultation.</p></div>
+          <p>*Due to high service requests I also travel between Chicago IL, Madison WI, Denver CO and Los Angeles CA. If you are interested in me coming to your area for a treatment please request a consultation.</p></div>
           <div className="right"></div>
         </div>
       </main>

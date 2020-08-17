@@ -36,12 +36,12 @@ export default function Home() {
       <Head>
         <title>Youtherapy</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/8187678fb5.js" crossOrigin="anonymous" defer></script>
       </Head>
       <header>
       <Link href="/"><div className="logo"></div></Link>
-        <div className="nav">
+        <nav>
           <ul>
             <li><Link href="/"><a>Home</a></Link></li>
             <li><Link href="/about"><a>About</a></Link></li>
@@ -55,7 +55,7 @@ export default function Home() {
             <li><Link href="/prices"><a>Price List</a></Link></li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
-        </div>
+        </nav>
       </header>
       <main>
         <div className="section">Summary</div>
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div className="hyaluron">   
           <div className="hyaluron__description">
-            <p>The Hyaluron Pen is an innovative tool that injects hyaluronic acid into the skin and lips using pressurized air. The Hyaluron Pen offers beautiful results without the pain or anxiety that can come from needles</p>
+            <p>The Hyaluron Pen is an innovative tool that injects hyaluronic acid into the skin and lips using pressurized air. The Hyaluron Pen offers beautiful results without the pain or anxiety that can come from needles.</p>
             <p> The results are beautiful, adding volume, wrinkle correction and even face contouring. Clients notice the results are both long lasting and low maintenance.</p>
           </div>
           <Link href="/services/hyaluron"><div className="hyaluron__title">
@@ -112,12 +112,12 @@ export default function Home() {
         >
           <div className="form">
             <div className="form__left">
-                <input type="text" name="name" id="name" placeholder="Name"/>
-                <input type="tel" name="phone" id="phone" maxLength="15" placeholder="Phone"/>
-                <input type="email" name="email" id="email" placeholder="Email"/>
+                <input type="text" name="name" id="name" placeholder="Name (Required)" required/>
+                <input type="tel" name="phone" id="phone" maxLength="15" placeholder="Phone (Required)" required/>
+                <input type="email" name="email" id="email" placeholder="Email (Required)" required/>
             </div>
             <div className="form__right">
-              <textarea name="message" id="message" placeholder="Additional comments or questions..."/>
+              <textarea name="message" id="message" placeholder="Additional comments or questions... (Optional)"/>
             </div>
           </div>
           <div className="submit">

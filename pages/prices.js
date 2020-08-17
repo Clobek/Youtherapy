@@ -36,12 +36,12 @@ export default function Home() {
       <Head>
         <title>Youtherapy</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/8187678fb5.js" crossOrigin="anonymous" defer></script>
       </Head>
       <header>
       <Link href="/"><div className="logo"></div></Link>
-        <div className="nav">
+        <nav>
           <ul>
             <li><Link href="/"><a>Home</a></Link></li>
             <li><Link href="/about"><a>About</a></Link></li>
@@ -55,7 +55,7 @@ export default function Home() {
             <li><Link href="/prices"><a>Price List</a></Link></li>
             <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
-        </div>
+        </nav>
       </header>
       <main>
         <div className="prices"></div>
