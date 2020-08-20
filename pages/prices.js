@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import img from '../public/images/peachmarble.jpg'
 import '../assets/style.scss'
 const {useState, useEffect} = React
 
