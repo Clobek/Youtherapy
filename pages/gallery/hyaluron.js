@@ -1,8 +1,12 @@
+import React from "react";
+import { render } from "react-dom";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Head from 'next/head'
 import Link from 'next/link'
 import '../../assets/style.scss'
 
-export default function Fibroblast() {
+export default function Hyaluron() {
   return (
     <div className="container">
       <Head>
@@ -35,16 +39,22 @@ export default function Fibroblast() {
           </ul>
         </nav>
       </header>
-        <div style={{width: "50%", margin: "20px auto 0 auto"}}>
+      <div className="car-container">
             <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
                 <div>
-                    <img src="../images/headshot1.jpg"/>
+                    <img src="../images/hyaluron/1.png"/>
                 </div>
                 <div>
-                    <img src="../images/headshot2.jpg"/>
+                    <img src="../images/hyaluron/2.png"/>
                 </div>
                 <div>
-                    <img src="../images/fibroblast.jpeg"/>
+                    <img src="../images/hyaluron/3.png"/>
+                </div>
+                <div>
+                    <img src="../images/hyaluron/4.png"/>
+                </div>
+                <div>
+                    <img src="../images/hyaluron/5.png"/>
                 </div>
             </Carousel>
         </div>

@@ -18,6 +18,8 @@
             width: 100%;
             height: 100%;
             margin: 0 auto;
+            position: relative;
+            min-height: 100vh;
             header{
                 display: flex;
                 flex-flow: column;
@@ -681,12 +683,38 @@
                 }
             }
 
+            .car-container{
+                width: 55%;
+                margin: auto;
+                padding: 10px 0 120px 0;
+            }
+
+            .thumbs-wrapper{
+                .control-arrow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #C79681;
+                padding: 4px 0;
+                }
+            }
+
+            .carousel-status{
+                position: absolute;
+                bottom: 0;
+                top: auto;
+                font-size: clamp(12px, 1.5vw, 14px)
+            }
+
             footer{
                 display: flex;
                 flex-flow: column;
                 height: 120px;
                 border-radius: 4%;
                 border-top: solid #C79681 2px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
                 .footer{
                     display: flex;
                     flex-flow: row;
@@ -768,6 +796,8 @@
             width: 100%;
             height: 100%;
             margin: 0 auto;
+            position: relative;
+            min-height: 100vh;
             header{
                 display: flex;
                 flex-flow: row;
@@ -885,6 +915,7 @@
                 flex-flow: column;
                 width: 90%;
                 margin: auto;
+                padding-bottom: 120px;
                 .section{
                     display: flex;
                     width: 100%;
@@ -1439,12 +1470,38 @@
                 }
             }
 
+            .car-container{
+                width: 55%;
+                margin: auto;
+                padding: 20px 0 160px 0;
+            }
+
+            .thumbs-wrapper{
+                .control-arrow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #C79681;
+                padding: 4px 0;
+                }
+            }
+
+            .carousel-status{
+                position: absolute;
+                bottom: 0;
+                top: auto;
+                font-size: clamp(14px, 1.5vw, 16px)
+            }
+
             footer{
                 display: flex;
                 flex-flow: column;
                 height: 120px;
                 border-radius: 4%;
                 border-top: solid #C79681 2px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
                 .footer{
                     display: flex;
                     flex-flow: row;
@@ -1524,6 +1581,8 @@
             width: 70%;
             height: 100%;
             margin: 0 auto; 
+            position: relative;
+            min-height: 100vh;
             header{
                 display: flex;
                 flex-flow: row;
@@ -1642,6 +1701,7 @@
                 flex-flow: column;
                 width: 90%;
                 margin: auto;
+                padding-bottom: 160px;
                 .section{
                     display: flex;
                     width: 100%;
@@ -2201,12 +2261,39 @@
                 }
             }
 
+            .car-container{
+                width: 45%;
+                margin: auto;
+                padding: 20px 0 160px 0;
+            }
+            
+            .thumbs-wrapper{
+                .control-arrow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #C79681;
+                padding: 4px 0;
+                }
+            }
+
+            .carousel-status{
+                position: absolute;
+                bottom: 0;
+                top: auto;
+                font-size: clamp(14px, 1.5vw, 20px)
+            }
+            
+
             footer{
                 display: flex;
                 flex-flow: column;
                 height: 160px;
                 border-radius: 4%;
                 border-top: solid #C79681 2px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
                 .footer{
                     display: flex;
                     flex-flow: row;

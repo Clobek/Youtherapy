@@ -40,16 +40,34 @@ export default function Fibroblast() {
           </ul>
         </nav>
       </header>
-        <div style={{width: "50%", margin: "20px auto 0 auto"}}>
+        <div className="car-container">
             <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
                 <div>
                     <img src="../images/fibroblast/1.png"/>
                 </div>
                 <div>
-                    <img src="../images/headshot2.jpg"/>
+                    <img src="../images/fibroblast/2.png"/>
                 </div>
                 <div>
-                    <img src="../images/fibroblast.jpeg"/>
+                    <img src="../images/fibroblast/3.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/4.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/5.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/6.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/7.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/8.png"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast/9.png"/>
                 </div>
             </Carousel>
         </div>

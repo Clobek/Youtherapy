@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="section">Results</div>
         <div className="examples">
-          <div className="examples__fibroblast">
+          <Link href="/gallery/fibroblast"><div className="examples__fibroblast">
             <div className="examples__fibroblast--image"></div>
             <div className="examples__fibroblast--title">
               <div>
@@ -95,8 +95,8 @@ export default function Home() {
                 - See Results -
               </div>
             </div>
-          </div>
-          <div className="examples__hyaluron">
+          </div></Link>
+          <Link href="/gallery/fibroblast"><div className="examples__hyaluron">
             <div className="examples__hyaluron--image"></div>
             <div className="examples__hyaluron--title">
               <div>
@@ -106,7 +106,7 @@ export default function Home() {
                 - See Results -
               </div>
             </div>
-          </div>
+          </div></Link>
         </div>
         <div className="section">Contact</div>
         <form
