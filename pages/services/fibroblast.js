@@ -34,7 +34,7 @@ export default function Fibroblast() {
           <div className="fibro__title">Fibroblast Plasma</div>
           <div className="fibro__how">
             <h2>How does Fibroblast Plasma work?</h2>
-            <p>Fibroblast is a relatively new innovation in the beauty industry in North America but has been used since 1994 in Europe. The extremely accurate hand held device works by utilizing the voltage in the air between its tip and the natural gasses emitted from our skin, to form a plasma charge. A small electrical arc is created and instantly shrinks the targeted skin.  The tissues retract and tighten giving you more youthful looking skin.</p>
+            <p>Fibroblast is a relatively new innovation in the beauty industry in North America but has been used since 1994 in Europe. The extremely accurate hand held device works by utilizing the voltage in the air between its tip and the natural gasses emitted from our skin to form a plasma charge. A small electrical arc is created and instantly shrinks the targeted skin.  The tissues retract and tighten giving you more youthful looking skin.</p>
           </div>
           <div className="fibro__what">
             <h2>What is it used to treat?</h2>

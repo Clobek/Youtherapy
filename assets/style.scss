@@ -28,7 +28,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
-                z-index: 2;
+                z-index: 3;
                 .logo{
                     height: 100%;
                     width: 75%;
@@ -214,6 +214,158 @@
                     }
                 }
 
+                .fibro{
+                    &__title{
+                        display: flex;
+                        justify-content: center;
+                        margin: 20px 0;
+                        font-size: clamp(30px, 3.5vw, 36px);
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &__how{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                        ul{
+                            display: flex;
+                            flex-flow: column;
+                            list-style-type: circle;
+                            margin: 5px 0 5px 20px;
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            li{
+                                margin: 2px 0 0 0;
+                            }
+                        }
+                    }
+                    &__duration{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                    &__risks{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                }
+
+                .hyla{
+                    &__title{
+                        display: flex;
+                        justify-content: center;
+                        margin: 20px 0;
+                        font-size: clamp(30px, 3.5vw, 36px);
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                    &__safe{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                    &__comp{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 15px;
+                        h2{
+                            font-size: clamp(16px, 3.5vw, 22px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(12px, 1.5vw, 14px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 5px 0;
+                        }
+                    }
+                }
+
                 .prices{
                     height: 530px;
                     margin: 10px 0;
@@ -228,7 +380,7 @@
                     border: solid black 1px;
                     height: 250px;
                     width: 100%;
-                    margin: 0 auto 10px auto;
+                    margin: 10px auto 10px auto;
                     background-color: #ECC7B7;
                     box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
@@ -242,8 +394,9 @@
                         margin: auto;
                         background-color: #FFFFFF;
                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
-                            display: none;
+                            display: flex;
                             text-align: center;
                             font-size: clamp(12px, 1.5vw, 14px);
                             padding: 1% 5%;
@@ -256,13 +409,7 @@
                         &:hover{
                             cursor: pointer;
                             p{
-                                display: flex;
                                 color: #C79681;
-                                animation: slide 0.5s;
-                            }
-                            p:first-child{
-                                align-items: flex-end;
-                                animation: none;
                             }
                         }
                     }
@@ -300,10 +447,11 @@
                         margin: auto;
                         background-color: #FFFFFF;
                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
-                            display: none;
+                            display: flex;
                             text-align: center;
-                            font-size: clamp(14px, 1.5vw, 16px);
+                            font-size: clamp(12px, 1.5vw, 14px);
                             padding: 1% 5%;
                         }
                         p:first-child{
@@ -314,13 +462,7 @@
                         &:hover{
                             cursor: pointer;
                             p{
-                                display: flex;
                                 color: #C79681;
-                                animation: slide 0.5s;
-                            }
-                            p:first-child{
-                                align-items: flex-end;
-                                animation: none;
                             }
                         }
                     }
@@ -375,15 +517,14 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
-                                display: none;
-                                font-size: clamp(10px, 1vw, 14px);
-                                animation: slide 0.5s;
+                                display: flex;
+                                font-size: clamp(8px, 1.5vw, 10px);
                             }
                             div:first-child{
                                 display: flex;
                                 font-size: clamp(12px, 1vw, 16px);
-                                animation: none;
                             }
                         }
                     }
@@ -404,7 +545,7 @@
                         }
                         &--image{
                             height: 85%;
-                            background-image: url('../public/images/hyaluron.png');
+                            background-image: url('../public/images/hyaluron.jpg');
                             background-size: 100% 100%;
                             border-top: solid black 1px;
                             border-right: solid black 1px;
@@ -418,10 +559,10 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
-                                display: none;
-                                font-size: clamp(10px, 1vw, 14px);
-                                animation: slide 0.5s;
+                                display: flex;
+                                font-size: clamp(8px, 1.5vw, 10px);
                             }
                             div:first-child{
                                 display: flex;
@@ -637,7 +778,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
-                z-index: 2;
+                z-index: 3;
                 .logo{
                     height: 100%;
                     width: 50%;
@@ -821,6 +962,158 @@
                     }
                 }
 
+                .fibro{
+                    &__title{
+                        display: flex;
+                        justify-content: center;
+                        margin: 30px 0;
+                        font-size: clamp(40px, 2.5vw, 48px);
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &__how{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                        ul{
+                            display: flex;
+                            flex-flow: column;
+                            list-style-type: circle;
+                            margin: 10px 0 10px 40px;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            font-family: 'Open Sans', sans-serif;
+                            li{
+                                margin: 5px 0 0 0;
+                            }
+                        }
+                    }
+                    &__duration{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__risks{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+
+                .hyla{
+                    &__title{
+                        display: flex;
+                        justify-content: center;
+                        margin: 20px 0;
+                        font-size: clamp(40px, 2.5vw, 48px);
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__safe{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__comp{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+
                 .prices{
                     height: 1106px;
                     margin: 20px 0;
@@ -834,7 +1127,7 @@
                     border: solid black 1px;
                     height: 200px;
                     width: 100%;
-                    margin: 0 auto 20px auto;
+                    margin: 20px auto 20px auto;
                     background-color: #ECC7B7;
                     box-shadow: inset 0 0 20px #C79681;
                     font-family: 'Montserrat', sans-serif;
@@ -848,6 +1141,7 @@
                         margin-left: 5%;
                         background-color: #FFFFFF;
                         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
                             display: none;
                             text-align: center;
@@ -905,6 +1199,7 @@
                         margin-right: 5%;
                         background-color: #FFFFFF;
                         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
                             display: none;
                             text-align: center;
@@ -978,14 +1273,15 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
                                 display: none;
-                                font-size: clamp(14px, 2.5vw, 16px);
+                                font-size: clamp(12px, 2vw, 14px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(18px, 2.5vw, 24px);
+                                font-size: clamp(16px, 2.5vw, 24px);
                                 animation: none;
                             }
                         }
@@ -1006,7 +1302,7 @@
                         }
                         &--image{
                             height: 85%;
-                            background-image: url('../public/images/hyaluron.png');
+                            background-image: url('../public/images/hyaluron.jpg');
                             background-size: 100% 100%;
                             border-top: solid black 1px;
                             border-right: solid black 1px;
@@ -1020,14 +1316,15 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
                                 display: none;
-                                font-size: clamp(14px, 2.5vw, 16px);
+                                font-size: clamp(12px, 2vw, 14px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(18px, 2.5vw, 24px);
+                                font-size: clamp(16px, 2.5vw, 24px);
                                 animation: none;
                             }
                         }
@@ -1237,7 +1534,7 @@
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
-                z-index: 2;
+                z-index: 3;
                 .logo{
                     height: 100%;
                     width: 30%;
@@ -1424,16 +1721,153 @@
 
                 .fibro{
                     &__title{
+                        display: flex;
+                        justify-content: center;
                         margin: 30px 0;
-                        border: solid black;
                         font-size: clamp(40px, 2.5vw, 48px);
-                        text-align: center;
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
                     }
                     &__how{
                         display: flex;
                         flex-flow: column;
+                        margin-bottom: 20px;
                         h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                        ul{
+                            display: flex;
+                            flex-flow: column;
+                            list-style-type: circle;
+                            margin: 10px 0 0 40px;
+                            font-size: clamp(14px, 1.5vw, 16px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin-bottom: 10px;
+                            li{
+                                margin: 5px 0 0 0;
+                            }
+                        }
+                    }
+                    &__duration{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__risks{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                }
 
+                .hyla{
+                    &__title{
+                        display: flex;
+                        justify-content: center;
+                        margin: 30px 0;
+                        font-size: clamp(40px, 2.5vw, 48px);
+                        font-weight: bold;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    &__what{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__safe{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
+                        }
+                    }
+                    &__comp{
+                        display: flex;
+                        flex-flow: column;
+                        margin-bottom: 20px;
+                        h2{
+                            font-size: clamp(24px, 2.5vw, 28px);
+                            color: #C79681;
+                            margin-bottom: 5px;
+                            border-bottom: solid rgba(0, 0, 0, 0.2) 1px;
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        p{
+                            font-size: clamp(14px, 1.5vw, 18px);
+                            font-family: 'Open Sans', sans-serif;
+                            margin: 10px 0;
                         }
                     }
                 }
@@ -1451,7 +1885,7 @@
                     border: solid black 1px;
                     height: 300px;
                     width: 100%;
-                    margin: 0 auto 30px auto;
+                    margin: 30px auto 30px auto;
                     background-color: #ECC7B7;
                     box-shadow: inset 0 0 30px #C79681;
                     font-family: 'Montserrat', sans-serif;
@@ -1465,10 +1899,11 @@
                         margin-left: 5%;
                         background-color: #FFFFFF;
                         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
                             display: none;
                             text-align: center;
-                            font-size: clamp(18px, 1.5vw, 24px);
+                            font-size: clamp(13px, 1vw, 20px);
                             padding: 1% 5%;
                             color: black;
                         }
@@ -1524,10 +1959,11 @@
                         margin-right: 5%;
                         background-color: #FFFFFF;
                         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+                        text-transform: uppercase;
                         p{
                             display: none;
                             text-align: center;
-                            font-size: clamp(18px, 1.5vw, 24px);
+                            font-size: clamp(13px, 1vw, 20px);
                             padding: 1% 5%;
                         }
                         p:first-child{
@@ -1600,14 +2036,15 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
                                 display: none;
-                                font-size: clamp(16px, 1vw, 20px);
+                                font-size: clamp(13px, 1vw, 20px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(20px, 1.5vw, 26px);
+                                font-size: clamp(18px, 1.5vw, 26px);
                                 animation: none;
                             }
                         }
@@ -1627,7 +2064,7 @@
                             color: #C79681;
                         }
                         &--image{
-                            background-image: url('../public/images/hyaluron.png');
+                            background-image: url('../public/images/hyaluron.jpg');
                             background-size: 100% 100%;
                             border-top: solid black 1px;
                             border-right: solid black 1px;
@@ -1641,14 +2078,15 @@
                             height: 15%;
                             border: solid black 1px;
                             background-color: #FFFFFF;
+                            text-transform: uppercase;
                             div{
                                 display: none;
-                                font-size: clamp(14px, 1vw, 20px);
+                                font-size: clamp(13px, 1vw, 20px);
                                 animation: slide 0.5s;
                             }
                             div:first-child{
                                 display: flex;
-                                font-size: clamp(20px, 1.5vw, 26px);
+                                font-size: clamp(18px, 1.5vw, 26px);
                                 animation: none;
                             }
                         }

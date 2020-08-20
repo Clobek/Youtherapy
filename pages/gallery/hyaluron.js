@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import '../assets/style.scss'
+import '../../assets/style.scss'
 
-export default function Specials() {
+export default function Fibroblast() {
   return (
     <div className="container">
       <Head>
@@ -29,6 +29,8 @@ export default function Specials() {
           </ul>
         </nav>
       </header>
+      <main>
+      </main>
       <footer>
         <div className="footer">
           <div className="footer__location">

@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import img from '../public/images/peachmarble.jpg'
 import '../assets/style.scss'
 const {useState, useEffect} = React
 
@@ -52,13 +51,18 @@ export default function Home() {
                 <Link href="/services/hyaluron"><a>Hyaluron</a></Link>
               </div>
             </li>
+            <li className="dropdown">
+              <div className="dropbtn">Gallery&nbsp;<i aria-hidden className="fas fa-caret-down"></i><i aria-hidden className="fas fa-caret-up"></i></div>
+              <div className="dropdown-content">
+                <Link href="/gallery/fibroblast"><a>Fibroblast</a></Link>
+                <Link href="/gallery/hyaluron"><a>Hyaluron</a></Link>
+              </div>
+            </li>
             <li><Link href="/prices"><a>Price List</a></Link></li>
-            <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
         </nav>
       </header>
       <main>
-        <div className="section">Summary</div>
         <div className="fibroblast">
           <Link href="/services/fibroblast"><div className="fibroblast__title">
             <p>Fibroblast Plasma</p>
