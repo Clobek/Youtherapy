@@ -24,13 +24,30 @@ export default function Fibroblast() {
                 <Link href="/services/hyaluron"><a>Hyaluron</a></Link>
               </div>
             </li>
+            <li className="dropdown">
+              <div className="dropbtn">Gallery&nbsp;<i aria-hidden className="fas fa-caret-down"></i><i aria-hidden className="fas fa-caret-up"></i></div>
+              <div className="dropdown-content">
+                <Link href="/gallery/fibroblast"><a>Fibroblast</a></Link>
+                <Link href="/gallery/hyaluron"><a>Hyaluron</a></Link>
+              </div>
+            </li>
             <li><Link href="/prices"><a>Price List</a></Link></li>
-            <li><Link href="/specials"><a>Specials</a></Link></li>
           </ul>
         </nav>
       </header>
-      <main>
-      </main>
+        <div style={{width: "50%", margin: "20px auto 0 auto"}}>
+            <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
+                <div>
+                    <img src="../images/headshot1.jpg"/>
+                </div>
+                <div>
+                    <img src="../images/headshot2.jpg"/>
+                </div>
+                <div>
+                    <img src="../images/fibroblast.jpeg"/>
+                </div>
+            </Carousel>
+        </div>
       <footer>
         <div className="footer">
           <div className="footer__location">

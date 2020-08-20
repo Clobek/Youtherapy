@@ -41,9 +41,9 @@ export default function Fibroblast() {
         </nav>
       </header>
         <div style={{width: "50%", margin: "20px auto 0 auto"}}>
-            <Carousel dynamicHeight={true} autoPlay={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
+            <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
                 <div>
-                    <img src="../images/headshot1.jpg"/>
+                    <img src="../images/fibroblast/1.png"/>
                 </div>
                 <div>
                     <img src="../images/headshot2.jpg"/>
