@@ -135,7 +135,7 @@ export default function Home() {
           <div className="footer__location">
             <p>1147 16th Ave., Moline, IL 61265</p>
             <p>kj@youtherapyskin.com</p>
-            <p><a href="tel:+8188256441">(818)825-6441</a></p>
+            <p><a href="tel:8188256441">(818)825-6441</a></p>
           </div>
           <div className="footer__links">
             <a href="https://www.instagram.com/youtherapy_modern_skincare/" target="_blank" rel="noopener noreferrer"><i aria-hidden className="fab fa-instagram"></i></a>
