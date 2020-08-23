@@ -26,7 +26,8 @@
                 position: sticky;
                 top: 0;
                 height: 120px;
-                border-radius: 4%;
+                border-bottom-left-radius: 4%;
+                border-bottom-right-radius: 4%;
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
@@ -720,7 +721,8 @@
                 display: flex;
                 flex-flow: column;
                 height: 120px;
-                border-radius: 4%;
+                border-top-left-radius: 4%;
+                border-top-right-radius: 4%;
                 border-top: solid #C79681 2px;
                 position: absolute;
                 bottom: 0;
@@ -817,7 +819,8 @@
                 position: sticky;
                 top: 0;
                 height: 160px;
-                border-radius: 4%;
+                border-bottom-left-radius: 4%;
+                border-bottom-right-radius: 4%;
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
@@ -1517,7 +1520,8 @@
                 display: flex;
                 flex-flow: column;
                 height: 120px;
-                border-radius: 4%;
+                border-top-left-radius: 4%;
+                border-top-right-radius: 4%;
                 border-top: solid #C79681 2px;
                 position: absolute;
                 bottom: 0;
@@ -1612,7 +1616,8 @@
                 position: sticky;
                 top: 0;
                 height: 160px;
-                border-radius: 4%;
+                border-bottom-left-radius: 4%;
+                border-bottom-right-radius: 4%;
                 border-bottom: solid #C79681 2px;
                 background-color: ghostwhite;
                 box-shadow: 0 6px 6px -8px rgba(0, 0, 0, 0.6);
@@ -2319,7 +2324,8 @@
                 display: flex;
                 flex-flow: column;
                 height: 160px;
-                border-radius: 4%;
+                border-top-left-radius: 4%;
+                border-top-right-radius: 4%;
                 border-top: solid #C79681 2px;
                 position: absolute;
                 bottom: 0;
