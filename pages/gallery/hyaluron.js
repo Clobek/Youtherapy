@@ -73,7 +73,7 @@ export default function Hyaluron() {
         </div>
         <div className="footer__section"></div>
         <div className="footer__signature">
-          <a href="">Bryce Belock</a>&nbsp;© 2020
+          <a href="https://www.linkedin.com/in/bryce-belock/" target="_blank" rel="noopener noreferrer">Bryce Belock</a>&nbsp;© 2020
         </div>
       </footer>
     </div>
