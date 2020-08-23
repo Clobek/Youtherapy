@@ -66,7 +66,9 @@ export default function Hyaluron() {
           </div>
         </div>
         <div className="footer__section"></div>
-        <div className="footer__signature">Website design & code by Bryce Belock</div>
+        <div className="footer__signature">
+          <a href="">Bryce Belock</a>&nbsp;© 2020
+        </div>
       </footer>
     </div>
   )

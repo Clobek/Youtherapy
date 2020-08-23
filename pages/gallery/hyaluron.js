@@ -40,24 +40,25 @@ export default function Hyaluron() {
         </nav>
       </header>
       <div className="car-container">
-            <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
-                <div>
-                    <img src="../images/hyaluron/1.png"/>
-                </div>
-                <div>
-                    <img src="../images/hyaluron/2.png"/>
-                </div>
-                <div>
-                    <img src="../images/hyaluron/3.png"/>
-                </div>
-                <div>
-                    <img src="../images/hyaluron/4.png"/>
-                </div>
-                <div>
-                    <img src="../images/hyaluron/5.png"/>
-                </div>
-            </Carousel>
-        </div>
+        <h2>Hyaluron Results</h2>
+        <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
+            <div>
+                <img src="../images/hyaluron/1.png"/>
+            </div>
+            <div>
+                <img src="../images/hyaluron/2.png"/>
+            </div>
+            <div>
+                <img src="../images/hyaluron/3.png"/>
+            </div>
+            <div>
+                <img src="../images/hyaluron/4.png"/>
+            </div>
+            <div>
+                <img src="../images/hyaluron/5.png"/>
+            </div>
+        </Carousel>
+      </div>
       <footer>
         <div className="footer">
           <div className="footer__location">
@@ -71,7 +72,9 @@ export default function Hyaluron() {
           </div>
         </div>
         <div className="footer__section"></div>
-        <div className="footer__signature">Website design & code by Bryce Belock</div>
+        <div className="footer__signature">
+          <a href="">Bryce Belock</a>&nbsp;© 2020
+        </div>
       </footer>
     </div>
   )

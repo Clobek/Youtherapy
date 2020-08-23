@@ -41,6 +41,7 @@ export default function Fibroblast() {
         </nav>
       </header>
         <div className="car-container">
+            <h2>Fibroblast Results</h2>
             <Carousel dynamicHeight={true} infiniteLoop={true} swipeable={true} showIndicators={false}>
                 <div>
                     <img src="../images/fibroblast/1.png"/>
@@ -84,7 +85,9 @@ export default function Fibroblast() {
           </div>
         </div>
         <div className="footer__section"></div>
-        <div className="footer__signature">Website design & code by Bryce Belock</div>
+        <div className="footer__signature">
+          <a href="">Bryce Belock</a>&nbsp;© 2020
+        </div>
       </footer>
     </div>
   )

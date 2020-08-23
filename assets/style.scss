@@ -689,6 +689,15 @@
                 width: 55%;
                 margin: auto;
                 padding: 10px 0 120px 0;
+                h2{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 10px;
+                    color: #C79681;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: clamp(18px, 5vw, 24px);
+                    text-align: center;
+                }
             }
 
             .thumbs-wrapper{
@@ -775,6 +784,9 @@
                         height: 20%;
                         font-family: 'Montserrat', sans-serif;
                         font-size: clamp(12px, 2vw, 14px);
+                        a{
+                            color: black;
+                        }
                     }
                 }
                 
@@ -1476,6 +1488,14 @@
                 width: 55%;
                 margin: auto;
                 padding: 20px 0 160px 0;
+                h2{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 20px;
+                    color: #C79681;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: clamp(24px, 1.5vw, 30px);
+                }
             }
 
             .thumbs-wrapper{
@@ -1560,6 +1580,9 @@
                         height: 20%;
                         font-family: 'Montserrat', sans-serif;
                         font-size: clamp(14px, 1.5vw, 16px);
+                        a{
+                            color: black;
+                        }
                     }
                 }
                 
@@ -2267,6 +2290,14 @@
                 width: 45%;
                 margin: auto;
                 padding: 20px 0 160px 0;
+                h2{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 20px;
+                    color: #C79681;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: clamp(24px, 1.5vw, 30px);
+                }
             }
             
             .thumbs-wrapper{
@@ -2351,6 +2382,9 @@
                         align-items: center;
                         height: 20%;
                         font-family: 'Montserrat', sans-serif;
+                        a{
+                            color: black;
+                        }
                     }
                 }
                 
