@@ -96,7 +96,7 @@ export default function Home() {
               </div>
             </div>
           </div></Link>
-          <Link href="/gallery/fibroblast"><div className="examples__hyaluron">
+          <Link href="/gallery/hyaluron"><div className="examples__hyaluron">
             <div className="examples__hyaluron--image"></div>
             <div className="examples__hyaluron--title">
               <div>
